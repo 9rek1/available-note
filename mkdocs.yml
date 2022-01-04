@@ -1,0 +1,45 @@
+site_name: available-note
+copyright: Copyright &copy 2021 9rek1
+
+theme:
+  name: material
+  language: ja
+  palette:
+    primary: brown
+  font:
+    text: Noto Sans JP
+    code: Inconsolata
+  features:
+    - navigation.instant
+    - navigation.tabs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+extra_css:
+  - stylesheets/extra.css
+  - https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+
+nav:
+  - まとめ:
+      - マダミス: summary/murder.md
+  - 暗唱物:
+      - 二条河原落書: recitation/rakusho.md
+      - 日本国憲法: recitation/kenpo.md
+      - 教育勅語: recitation/chokugo.md
+      - 般若心経: recitation/shingyo.md
+      - 歴代天皇: recitation/tenno.md
+      - 文学作品: recitation/literature.md
+      - カルチャー: recitation/culture.md
+      - オリンピック: recitation/olympics.md
+      - クイズもの: recitation/quiz.md

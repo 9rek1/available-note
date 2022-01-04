@@ -1,0 +1,10 @@
+{
+  "[markdown]": {
+    "editor.defaultFormatter": "unifiedjs.vscode-remark"
+  },
+  "remark.format": {
+    "rules": {
+      "listItemIndent": "1"
+    }
+  }
+}
